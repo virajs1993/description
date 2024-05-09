@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siddhatech Animation</title>
+<style>
+  @keyframes neon {
+    0% {
+      text-shadow: 0 0 10px #b2ca51, 0 0 20px #d37735, 0 0 30px #fce9f9, 0 0 40px #127dd4;
+      transform: rotate(0deg);
+    }
+    50% {
+      text-shadow: 0 0 20px #b2ca51, 0 0 30px #d37735, 0 0 40px #fce9f9, 0 0 50px #127dd4;
+      transform: rotate(5deg);
+    }
+    100% {
+      text-shadow: 0 0 30px #b2ca51, 0 0 40px #d37735, 0 0 50px #fce9f9, 0 0 60px #127dd4;
+      transform: rotate(0deg);
+    }
+  }
+ 
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial Black', Arial, sans-serif;
+  }
+ 
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    animation: neon 2s infinite alternate;
+    letter-spacing: 5px;
+    margin: 0;
+    padding: 20px;
+    border: 2px solid #d8e640;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #cdbd08, #0abb25);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+</head>
+<body>
+  <h1>SiddhaTech</h1>
+</body>
+</html>
